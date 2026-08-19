@@ -3,235 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sausage Therapy | Dachshund-Assisted Wellness & Retreats | Noosa</title>
-  <meta name="description" content="Professional dachshund-assisted therapy, NDIS pet therapy, corporate wellness events and luxury retreats. Based on the Sunshine Coast / Noosa. Book sessions or join the Academy.">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <title>Therapy Sausages | Live Booking & Passive Income</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap');
-    body { font-family: 'Inter', system-ui, sans-serif; }
-    .heading { font-family: 'Playfair Display', Georgia, serif; }
+    :root { --amber: #b45309; --dark: #1c1917; --cream: #fafaf9; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, -apple-system, sans-serif; background: var(--cream); color: var(--dark); line-height: 1.5; }
+    header { background: var(--dark); color: white; padding: 2.5rem 1rem; text-align: center; }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    .tag { opacity: 0.8; font-size: 0.95rem; }
+    .container { max-width: 640px; margin: 0 auto; padding: 2rem 1rem; }
+    .card { background: white; border-radius: 16px; padding: 1.75rem; margin-bottom: 1.25rem; box-shadow: 0 4px 20px rgba(0,0,0,0.06); border: 1px solid #e7e5e4; }
+    .price { font-size: 1.75rem; font-weight: 700; color: var(--amber); margin: 0.5rem 0 1rem; }
+    a.btn { display: block; background: var(--amber); color: white; text-align: center; padding: 1rem; border-radius: 999px; text-decoration: none; font-weight: 600; font-size: 1.05rem; }
+    a.btn:hover { filter: brightness(1.05); }
+    a.btn.secondary { background: var(--dark); }
+    .note { font-size: 0.85rem; color: #57534e; margin-top: 1rem; text-align: center; }
+    footer { text-align: center; padding: 2rem 1rem; font-size: 0.8rem; color: #78716c; }
   </style>
 </head>
-<body class="bg-stone-50 text-stone-900">
-
-  <!-- Nav -->
-  <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-stone-200">
-    <div class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
-      <div class="flex items-center gap-3">
-        <div class="w-10 h-10 bg-amber-700 rounded-xl flex items-center justify-center text-white text-xl">
-          <i class="fa-solid fa-dog"></i>
-        </div>
-        <div>
-          <div class="font-bold tracking-tight">SAUSAGE THERAPY</div>
-          <div class="text-[10px] text-stone-500 -mt-0.5">NOOSA • FOREVERMORE</div>
-        </div>
-      </div>
-      <div class="hidden md:flex items-center gap-8 text-sm font-medium">
-        <a href="#offerings" class="hover:text-amber-700">Offerings</a>
-        <a href="#academy" class="hover:text-amber-700">Academy</a>
-        <a href="#about" class="hover:text-amber-700">About</a>
-      </div>
-      <a href="#book" class="px-5 py-2.5 bg-amber-700 hover:bg-amber-800 text-white text-sm font-semibold rounded-full transition">
-        Book a Session
-      </a>
+<body>
+  <header>
+    <h1>Therapy Sausages</h1>
+    <p class="tag">Dachshund-assisted therapy • NDIS-friendly • Real payments live</p>
+  </header>
+  <div class="container">
+    <div class="card">
+      <h2>1:1 / Family Therapy Session</h2>
+      <p>Professional animal-assisted support for anxiety, regulation and wellbeing.</p>
+      <div class="price">$180</div>
+      <a class="btn" href="https://buy.stripe.com/28E00j68k4ty6pygIb0Fi02" target="_blank" rel="noopener">Pay & Book Now</a>
     </div>
-  </nav>
-
-  <!-- Hero -->
-  <section class="max-w-6xl mx-auto px-5 pt-16 pb-20">
-    <div class="grid lg:grid-cols-2 gap-12 items-center">
-      <div>
-        <div class="inline-flex items-center gap-2 bg-amber-50 text-amber-800 text-xs font-semibold px-3 py-1 rounded-full mb-6">
-          <span class="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-pulse"></span>
-          Accepting new clients • Sunshine Coast
-        </div>
-        <h1 class="heading text-5xl md:text-6xl leading-[1.05] font-bold tracking-tight mb-6">
-          Short legs.<br>
-          <span class="text-amber-700">Deep healing.</span>
-        </h1>
-        <p class="text-lg text-stone-600 mb-8 max-w-lg">
-          Professional dachshund-assisted therapy, NDIS support, corporate wellness and intimate retreats. Real dogs. Real outcomes. Based on the Sunshine Coast / Noosa hinterland.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-4">
-          <a href="https://buy.stripe.com/28E00j68k4ty6pygIb0Fi02" target="_blank" rel="noopener" class="px-8 py-4 bg-amber-700 hover:bg-amber-800 text-white font-semibold rounded-full text-center transition">
-            Book Therapy Session — $180
-          </a>
-          <a href="https://buy.stripe.com/bJe00j7cof8c4hqdvZ0Fi01" target="_blank" rel="noopener" class="px-8 py-4 border border-stone-300 hover:bg-stone-100 font-semibold rounded-full text-center transition">
-            Join the Academy — $997
-          </a>
-        </div>
-      </div>
-      <div class="relative">
-        <div class="aspect-[4/5] bg-stone-200 rounded-3xl overflow-hidden shadow-xl">
-          <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=800&q=80" alt="Dachshund in natural light" class="w-full h-full object-cover">
-        </div>
-      </div>
+    <div class="card">
+      <h2>Digital Academy</h2>
+      <p>Full systems, training, NDIS setup and passive content pipelines. Lifetime access.</p>
+      <div class="price">$997</div>
+      <a class="btn" href="https://buy.stripe.com/bJe00j7cof8c4hqdvZ0Fi01" target="_blank" rel="noopener">Enrol & Pay Now</a>
     </div>
-  </section>
-
-  <!-- Offerings -->
-  <section id="offerings" class="bg-white border-y border-stone-200 py-20">
-    <div class="max-w-6xl mx-auto px-5">
-      <div class="text-center mb-14">
-        <div class="text-amber-700 text-xs font-semibold tracking-widest uppercase mb-3">What we offer</div>
-        <h2 class="heading text-4xl font-bold">Therapy that actually moves the needle</h2>
-      </div>
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="bg-stone-50 rounded-3xl p-8 border border-stone-100">
-          <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-2xl flex items-center justify-center text-xl mb-5">
-            <i class="fa-solid fa-heart-pulse"></i>
-          </div>
-          <h3 class="font-bold text-xl mb-3">1:1 Therapy Sessions</h3>
-          <p class="text-stone-600 text-sm mb-6">Individual or family sessions with carefully selected therapy dachshunds. Ideal for anxiety, trauma recovery, NDIS participants and emotional regulation.</p>
-          <div class="text-amber-700 font-semibold mb-4">$180 / session</div>
-          <a href="https://buy.stripe.com/28E00j68k4ty6pygIb0Fi02" target="_blank" rel="noopener" class="inline-block px-5 py-2.5 bg-amber-700 hover:bg-amber-800 text-white text-sm font-semibold rounded-full transition">
-            Book & Pay
-          </a>
-        </div>
-        <div class="bg-stone-50 rounded-3xl p-8 border border-stone-100">
-          <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-2xl flex items-center justify-center text-xl mb-5">
-            <i class="fa-solid fa-building"></i>
-          </div>
-          <h3 class="font-bold text-xl mb-3">Corporate & Group</h3>
-          <p class="text-stone-600 text-sm mb-6">Workplace wellness visits, team events and school programs. Measurable reduction in stress and increase in connection.</p>
-          <div class="text-amber-700 font-semibold mb-4">Custom packages</div>
-          <a href="#book" class="inline-block px-5 py-2.5 border border-amber-700 text-amber-700 hover:bg-amber-50 text-sm font-semibold rounded-full transition">
-            Enquire
-          </a>
-        </div>
-        <div class="bg-stone-50 rounded-3xl p-8 border border-stone-100">
-          <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-2xl flex items-center justify-center text-xl mb-5">
-            <i class="fa-solid fa-mountain-sun"></i>
-          </div>
-          <h3 class="font-bold text-xl mb-3">Retreats & Immersions</h3>
-          <p class="text-stone-600 text-sm mb-6">Intimate multi-day experiences on acreage. Deep rest, dog connection, and practical tools you take home.</p>
-          <div class="text-amber-700 font-semibold mb-4">Limited spots</div>
-          <a href="#book" class="inline-block px-5 py-2.5 border border-amber-700 text-amber-700 hover:bg-amber-50 text-sm font-semibold rounded-full transition">
-            Enquire
-          </a>
-        </div>
-      </div>
+    <div class="card">
+      <h2>Custom / Corporate / NDIS</h2>
+      <p>Group events, retreats, supported sessions. We send a tailored link or invoice.</p>
+      <a class="btn secondary" href="mailto:Emilybluerichards@gmail.com?subject=Therapy%20Sausages%20Enquiry">Email to Book</a>
     </div>
-  </section>
-
-  <!-- Academy -->
-  <section id="academy" class="py-20">
-    <div class="max-w-6xl mx-auto px-5">
-      <div class="grid lg:grid-cols-2 gap-14 items-center">
-        <div>
-          <div class="text-amber-700 text-xs font-semibold tracking-widest uppercase mb-3">Digital Academy</div>
-          <h2 class="heading text-4xl font-bold mb-6">Build your own dachshund wellness empire</h2>
-          <p class="text-stone-600 mb-8">
-            The exact systems used at Forevermore Farm / Noosa Dachshunds. Therapy dog selection & training, NDIS setup, acreage retreat design, automated visual content, and membership funnels.
-          </p>
-          <ul class="space-y-3 mb-10 text-sm">
-            <li class="flex gap-3"><i class="fa-solid fa-check text-amber-600 mt-0.5"></i> Therapy temperament & breeding ethics</li>
-            <li class="flex gap-3"><i class="fa-solid fa-check text-amber-600 mt-0.5"></i> Advanced training & placement systems</li>
-            <li class="flex gap-3"><i class="fa-solid fa-check text-amber-600 mt-0.5"></i> NDIS provider setup & compliance</li>
-            <li class="flex gap-3"><i class="fa-solid fa-check text-amber-600 mt-0.5"></i> Automated content & passive revenue pipelines</li>
-            <li class="flex gap-3"><i class="fa-solid fa-check text-amber-600 mt-0.5"></i> Scaling to multi-property operations</li>
-          </ul>
-          <a href="https://buy.stripe.com/bJe00j7cof8c4hqdvZ0Fi01" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-7 py-3.5 bg-stone-900 hover:bg-stone-800 text-white font-semibold rounded-full transition">
-            Join the Academy <i class="fa-solid fa-arrow-right text-sm"></i>
-          </a>
-        </div>
-        <div class="bg-stone-900 text-stone-100 rounded-3xl p-10">
-          <div class="text-amber-400 text-sm font-medium mb-2">FOUNDING MEMBERSHIP</div>
-          <div class="text-5xl font-bold mb-2">$997</div>
-          <div class="text-stone-400 text-sm mb-8">or 3 × $347 · Lifetime access + community</div>
-          <ul class="space-y-3 text-sm mb-10">
-            <li class="flex gap-3"><i class="fa-solid fa-check text-amber-400"></i> Full 8-module curriculum</li>
-            <li class="flex gap-3"><i class="fa-solid fa-check text-amber-400"></i> Live group calls</li>
-            <li class="flex gap-3"><i class="fa-solid fa-check text-amber-400"></i> Private community</li>
-            <li class="flex gap-3"><i class="fa-solid fa-check text-amber-400"></i> Templates & checklists</li>
-            <li class="flex gap-3"><i class="fa-solid fa-check text-amber-400"></i> Priority retreat access</li>
-          </ul>
-          <a href="https://buy.stripe.com/bJe00j7cof8c4hqdvZ0Fi01" target="_blank" rel="noopener" class="block w-full text-center px-6 py-4 bg-amber-600 hover:bg-amber-500 text-white font-bold rounded-2xl transition">
-            Enrol Now — Pay with Stripe
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Book -->
-  <section id="book" class="bg-amber-700 text-white py-20">
-    <div class="max-w-3xl mx-auto px-5 text-center">
-      <h2 class="heading text-4xl md:text-5xl font-bold mb-6">Ready to start?</h2>
-      <p class="text-amber-100 text-lg mb-6">
-        Instant booking available for sessions and the Academy. For custom packages (NDIS, corporate, retreats) use the form below — we reply within one business day.
-      </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center mb-10">
-        <a href="https://buy.stripe.com/28E00j68k4ty6pygIb0Fi02" target="_blank" rel="noopener" class="px-8 py-4 bg-white text-amber-800 font-bold rounded-full transition hover:bg-amber-50">
-          Book Session $180
-        </a>
-        <a href="https://buy.stripe.com/bJe00j7cof8c4hqdvZ0Fi01" target="_blank" rel="noopener" class="px-8 py-4 bg-stone-900 hover:bg-stone-800 text-white font-bold rounded-full transition">
-          Enrol Academy $997
-        </a>
-      </div>
-      <form action="https://formsubmit.co/Emilybluerichards@gmail.com" method="POST" class="bg-white text-stone-900 rounded-3xl p-8 text-left shadow-2xl max-w-xl mx-auto">
-        <input type="hidden" name="_subject" value="New Sausage Therapy Enquiry">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_template" value="table">
-        <div class="grid sm:grid-cols-2 gap-5 mb-5">
-          <div>
-            <label class="block text-xs font-semibold text-stone-500 mb-1.5">Name</label>
-            <input type="text" name="name" required class="w-full px-4 py-3 rounded-xl border border-stone-200 focus:outline-none focus:ring-2 focus:ring-amber-500" placeholder="Your name">
-          </div>
-          <div>
-            <label class="block text-xs font-semibold text-stone-500 mb-1.5">Email</label>
-            <input type="email" name="email" required class="w-full px-4 py-3 rounded-xl border border-stone-200 focus:outline-none focus:ring-2 focus:ring-amber-500" placeholder="you@email.com">
-          </div>
-        </div>
-        <div class="mb-5">
-          <label class="block text-xs font-semibold text-stone-500 mb-1.5">What are you interested in?</label>
-          <select name="interest" class="w-full px-4 py-3 rounded-xl border border-stone-200 focus:outline-none focus:ring-2 focus:ring-amber-500">
-            <option>1:1 Therapy Session</option>
-            <option>NDIS / Support Work</option>
-            <option>Corporate / Group Visit</option>
-            <option>Retreat</option>
-            <option>Academy / Membership</option>
-            <option>Other</option>
-          </select>
-        </div>
-        <div class="mb-6">
-          <label class="block text-xs font-semibold text-stone-500 mb-1.5">Message (optional)</label>
-          <textarea name="message" rows="3" class="w-full px-4 py-3 rounded-xl border border-stone-200 focus:outline-none focus:ring-2 focus:ring-amber-500" placeholder="Tell us a bit more..."></textarea>
-        </div>
-        <button type="submit" class="w-full py-4 bg-stone-900 hover:bg-stone-800 text-white font-bold rounded-2xl transition">
-          Send Enquiry
-        </button>
-      </form>
-      <p class="mt-6 text-amber-100 text-sm">Or email directly: <a href="mailto:Emilybluerichards@gmail.com" class="underline">Emilybluerichards@gmail.com</a></p>
-    </div>
-  </section>
-
-  <!-- About -->
-  <section id="about" class="py-20">
-    <div class="max-w-3xl mx-auto px-5 text-center">
-      <div class="text-amber-700 text-xs font-semibold tracking-widest uppercase mb-3">The humans & the pack</div>
-      <h2 class="heading text-3xl font-bold mb-6">Emily Blue Richards & the Forevermore dachshunds</h2>
-      <p class="text-stone-600 leading-relaxed mb-8">
-        Based on the Sunshine Coast hinterland. We combine rigorous therapy-dog standards, genuine animal welfare, and practical systems so more people (and more dogs) can benefit. Animal welfare and long-term impact always come first.
-      </p>
-      <div class="flex justify-center gap-4">
-        <a href="https://x.com/TherapySausages" target="_blank" class="w-11 h-11 bg-stone-100 hover:bg-stone-200 rounded-full flex items-center justify-center transition">
-          <i class="fa-brands fa-x-twitter"></i>
-        </a>
-        <a href="https://github.com/forevermore63" target="_blank" class="w-11 h-11 bg-stone-100 hover:bg-stone-200 rounded-full flex items-center justify-center transition">
-          <i class="fa-brands fa-github"></i>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="border-t border-stone-200 py-10 text-center text-sm text-stone-500">
-    <div class="max-w-6xl mx-auto px-5">
-      © 2026 Sausage Therapy · Forevermore Farm · Noosa Dachshunds · @TherapySausages
-    </div>
+    <p class="note">Payments process securely via Stripe and settle to the connected account. Instant confirmation.</p>
+  </div>
+  <footer>
+    Therapy Sausages • Forevermore • Live passive income page<br>
+    @TherapySausages
   </footer>
-
 </body>
 </html>
